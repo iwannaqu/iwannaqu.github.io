@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+<title>The Truth is Not Out There</title>
+<script type="text/javascript">
+	//move the image to the top-left position of the text
+	function northwest() {		
+		var myobjStyle = document.getElementById("e2").style;
+		myobjStyle.top = document.getElementById("rightcolm").style.top;
+		myobjStyle.left = document.getElementById("rightcolm").style.left;
+	}//northwest method
+	//move the image to the top-right position of the text
+	function northeast() {		
+		var myobjStyle = document.getElementById("e2").style;		
+		myobjStyle.top = document.getElementById("rightcolm").style.top;
+		myobjStyle.left = document.getElementById("rightcolm").offsetWidth 
+							- document.getElementById("e2").offsetWidth + "px";
+	}//northwest method	
+	//move the image to the bottom-left position of the text
+	function southwest() {		
+		var myobjStyle = document.getElementById("e2").style;		
+		myobjStyle.top = document.getElementById("rightcolm").offsetHeight 
+							- document.getElementById("e2").offsetHeight + "px";
+		myobjStyle.left = document.getElementById("rightcolm").style.left;
+	}//northwest method	
+	//move the image to the bottom-right position of the text
+	function southeast() {		
+		var myobjStyle = document.getElementById("e2").style; 		
+		myobjStyle.top = document.getElementById("rightcolm").offsetHeight 
+							- document.getElementById("e2").offsetHeight + "px";
+		myobjStyle.left = document.getElementById("rightcolm").offsetWidth
+							- document.getElementById("e2").offsetWidth + "px";
+	}//northwest method	
+</script>
+</head>
+<body>
+<div id = "wrapper">
+	<div id = "leftcolm">
+		<form>
+			<input type="button" onclick="northwest();" value="Northwest"/><br>
+			<input type="button" onclick="northeast();" value="Northeast"/><br>
+			<input type="button" onclick="southwest();" value="Southwest"/><br>
+			<input type="button" onclick="southeast();" value="Southeast"/>
+    </form>
+	</div>
+	<div id = "rightcolm">
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. 
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. 
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE. THE TRUTH IS NOT OUT THERE.
+			THE TRUTH IS NOT OUT THERE.
+		<div ID = "e2">
+			<img src="bart.gif" alt="HECK YES! :D"/>
+		</div>
+	</div>
+</div>
+</body>
+</html>

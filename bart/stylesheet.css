@@ -1,0 +1,30 @@
+body{ /*Styles the body of the page*/
+	background-color: #000;
+	color: #FFF;
+	font-family: 'Impact';
+}
+#e2 { /*Placement style for the image in original position*/
+	left: 0px;
+	position: absolute;	
+	top: 0px;
+	z-index: 2;
+}
+#leftcolm { /*Styles the left column of the page*/
+	float: left;
+	height: 100%;
+	padding: 5px;
+	width: 10%;
+} 
+#rightcolm { /*Styles the right column of the page*/
+	height: 100%;
+	margin-left: 12%;
+	padding: 20px;
+	position: relative;
+  text-align: center;
+	z-index: 1;
+} 
+#wrapper { /*Styles the body box of the page*/ 
+	margin: auto;
+  min-width:850px;
+  width: 80%;
+}
